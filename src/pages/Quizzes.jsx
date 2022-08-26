@@ -88,6 +88,8 @@ function Quizzes({ isLoading, setIsLoading, isStarted, setIsStarted }) {
 
   useEffect(() => {
     !isChecked && getQuizzes();
+
+    //eslint-disable-next-line
   }, [isChecked]);
 
   const quizzesElements = quizzes.map((quizz) => (

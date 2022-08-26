@@ -1,13 +1,14 @@
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
+import Footer from './components/Footer';
+
+import Home from './pages/Home';
 
 function App() {
-  return (
-    <>
-      <Home />
-      <Footer />
-    </>
-  );
+	return (
+		<>
+			<Home />
+			<Footer />
+		</>
+	);
 }
 
 export default App;
