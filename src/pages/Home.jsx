@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import Quizzes from './Quizzes';
 import StartGame from './StartGame';
 import { FormProvider } from '../store/FormContext';
