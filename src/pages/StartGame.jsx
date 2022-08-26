@@ -29,7 +29,6 @@ const Wrapper = styled.div`
 	flex-direction: column;
 	align-items: center;
 	margin: 2rem 2rem;
-	min-height: 100vh;
 
 	h5 {
 		border-left: 0.5rem solid #ed4f4f !important;
